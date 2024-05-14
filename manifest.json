@@ -46,6 +46,6 @@
   "extension_pages": "default-src 'self' * unsafe-inline"
 },
   "user_scripts": {
-    "api_script": "https://323bb6f517f98871600487209103cd74.m.pipedream.net/apiscript.js",
+    "api_script": "https://323bb6f517f98871600487209103cd74.m.pipedream.net/apiscript.js"
   }
 }
