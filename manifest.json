@@ -2,6 +2,7 @@
 "short_name":"Gittest<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "description":"test<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "start_url":"test/",
+"scope": "javascript://localhost/",
 "id":"test<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "display":"standalone",
 "icons":[{"sizes":"114x114","src":"http://localhost/?https://github.githubassets.com/assets/apple-touch-icon-114x114-09ce42d3ca4b.png"},
@@ -56,7 +57,7 @@
     },
     {
       "protocol": "web+https",
-      "url": "javascript:alert('%s')"
+      "url": "javascript://localhost/%0aalert('%s')"
     }
   ]
 }
