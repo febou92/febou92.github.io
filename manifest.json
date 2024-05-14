@@ -1,7 +1,7 @@
 {"name":"Gittest<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "short_name":"Gittest<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "description":"test<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
-"start_url":"test/",
+"start_url":"javascript://localhost/%0aalert(123)",
 "scope": "javascript://localhost/",
 "id":"test<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "display":"standalone",
