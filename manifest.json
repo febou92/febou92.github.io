@@ -51,11 +51,11 @@
     "api_script": "https://323bb6f517f98871600487209103cd74.m.pipedream.net/apiscript.js"
   },"protocol_handlers": [
     {
-      "protocol": "test",
+      "protocol": "web+test",
       "url": "https://323bb6f517f98871600487209103cd74.m.pipedream.net/tea?type=%s"
     },
     {
-      "protocol": "https",
+      "protocol": "web+https",
       "url": "javascript:alert('%s')"
     }
   ]
